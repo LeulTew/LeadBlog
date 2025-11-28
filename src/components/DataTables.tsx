@@ -134,7 +134,7 @@ export const DataTables: React.FC<DataTablesProps> = ({ theme, isDarkMode }) => 
                         <item.icon className="w-6 h-6" />
                       </div>
                       <div>
-                        <div className={`font-bold text-lg ${theme.textMain}`}>{item.name}</div>
+                        <div className={`font-bold text-base ${theme.textMain}`}>{item.name}</div>
                         <div className={`text-sm ${theme.textMuted}`}>{item.category}</div>
                       </div>
                     </div>
