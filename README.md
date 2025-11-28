@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LeadBlog
 
-## Getting Started
+A data visualization dashboard comparing lead levels in Ethiopian vegetables vs protein powders.
 
-First, run the development server:
+## 🚀 Live Demo
+
+[View Live Site](https://your-deployment-url.vercel.app)
+
+## 📊 Features
+
+- **Interactive Data Tables**: Filter and search through lead contamination data
+- **Visual Comparisons**: Color-coded risk badges and visual bars
+- **Blog Introduction**: Engaging narrative about food safety
+- **Dark Mode**: Full dark/light mode support
+- **Responsive Design**: Works on all devices
+- **Scientific References**: Links to all source studies
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Icons**: Lucide React
+- **Testing**: Vitest + React Testing Library
+- **Package Manager**: pnpm
+- **Deployment**: Vercel
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repository
+git clone https://github.com/LeulTew/LeadBlog.git
+cd LeadBlog
+
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
+
+# Build for production
+pnpm build
+
+# Run tests
+pnpm test
+
+# Run tests with coverage
+pnpm test -- --coverage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 Testing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project includes comprehensive test coverage:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 15 tests across 3 test suites
+- 100% pass rate
+- Tests for all major components
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+MIT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Leul T Agonafer**
 
-## Deploy on Vercel
+- GitHub: [@LeulTew](https://github.com/LeulTew)
+- LinkedIn: [Leul T Agonafer](https://www.linkedin.com/in/leul-t-agonafer-861bb3336/)
+- Email: leulman2@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙏 Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Data sourced from independent lab reports and scientific studies (2020-2025).
