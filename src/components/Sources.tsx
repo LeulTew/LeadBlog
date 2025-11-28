@@ -20,8 +20,8 @@ export const Sources: React.FC<SourcesProps> = ({ theme, isDarkMode }) => {
           <div className="flex items-center gap-3">
             <BookOpen className={`w-5 h-5 ${isDarkMode ? 'text-emerald-400' : 'text-emerald-600'}`} />
             <div className="text-left">
-              <h3 className={`font-bold text-sm ${theme.textMain}`}>Scientific References & Sources</h3>
-              <p className={`text-xs ${theme.textMuted}`}>List of Papers Used (2020-2025)</p>
+              <h3 className={`font-bold text-sm md:text-base ${theme.textMain}`}>Scientific References & Sources</h3>
+              <p className={`text-xs md:text-sm ${theme.textMuted}`}>List of Papers Used (2020-2025)</p>
             </div>
           </div>
           {isOpen ? <ChevronUp className={`w-5 h-5 ${theme.textMuted}`} /> : <ChevronDown className={`w-5 h-5 ${theme.textMuted}`} />}
