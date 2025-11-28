@@ -21,8 +21,8 @@ export const BrandList: React.FC<BrandListProps> = ({ theme, isDarkMode }) => {
           <div className="flex items-center gap-3">
             <ShoppingBag className={`w-5 h-5 ${isDarkMode ? 'text-cyan-400' : 'text-cyan-600'}`} />
             <div className="text-left">
-              <h3 className={`font-bold text-sm md:text-base ${theme.textMain}`}>Protein Brands Sold in Ethiopia</h3>
-              <p className={`text-xs md:text-sm ${theme.textMuted}`}>Click to view safety details for Gold Standard, Ensure, etc.</p>
+              <h3 className={`font-bold text-sm md:text-lg ${theme.textMain}`}>Protein Brands Sold in Ethiopia</h3>
+              <p className={`text-xs md:text-base ${theme.textMuted}`}>Click to view safety details for Gold Standard, Ensure, etc.</p>
             </div>
           </div>
           {isOpen ? <ChevronUp className={`w-5 h-5 ${theme.textMuted}`} /> : <ChevronDown className={`w-5 h-5 ${theme.textMuted}`} />}
