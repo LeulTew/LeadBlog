@@ -89,7 +89,7 @@ export const DataTables: React.FC<DataTablesProps> = ({ theme, isDarkMode }) => 
                 <button 
                   key={btn.id}
                   onClick={() => setFilter(btn.id)}
-                  className={`whitespace-nowrap px-3 py-1.5 rounded-md text-xs font-semibold transition-all border border-transparent ${filter === btn.id ? `${theme.btnActive} ${isDarkMode ? '' : 'bg-neutral-100'}` : theme.btnInactive}`}
+                  className={`whitespace-nowrap px-3 py-1.5 rounded-md text-xs font-semibold transition-all border border-transparent ${filter === btn.id ? theme.btnActive : theme.btnInactive}`}
                 >
                   {btn.label}
                 </button>

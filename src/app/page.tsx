@@ -22,7 +22,7 @@ export default function LeadSafetyDashboardV5() {
     inputBg: isDarkMode ? "bg-neutral-950" : "bg-white",
     hoverBg: isDarkMode ? "hover:bg-neutral-800" : "hover:bg-neutral-50",
     divider: isDarkMode ? "divide-neutral-800" : "divide-neutral-100",
-    btnActive: isDarkMode ? "bg-neutral-700 text-white" : "bg-white text-neutral-900 shadow-sm border-neutral-200",
+    btnActive: isDarkMode ? "bg-neutral-700 text-white" : "bg-neutral-100 text-neutral-900 shadow-sm border-neutral-200",
     btnInactive: isDarkMode ? "text-neutral-500 hover:text-neutral-300" : "text-neutral-500 hover:text-neutral-900",
   };
 
